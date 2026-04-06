@@ -106,6 +106,7 @@ export async function BlogSection() {
                       }
                       fill
                       className="object-cover group-hover:scale-105 transition-transform duration-500"
+                      loading="eager"
                     />
                   </Link>
 

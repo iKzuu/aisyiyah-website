@@ -41,6 +41,7 @@ const portableTextComponents = {
             }
             fill
             className="object-cover"
+            loading="eager"
           />
         </div>
       );
@@ -204,6 +205,7 @@ export default async function BlogPostPage({
             }
             fill
             className="object-cover"
+            loading="eager"
             priority
           />
         </div>
@@ -227,6 +229,7 @@ export default async function BlogPostPage({
                 width={56}
                 height={56}
                 className="rounded-full object-cover aspect-square border border-border"
+                loading="eager"
               />
             ) : (
               <div className="w-14 h-14 rounded-full bg-muted flex items-center justify-center">
@@ -314,6 +317,7 @@ export default async function BlogPostPage({
                         }
                         fill
                         className="object-cover group-hover:scale-105 transition-transform"
+                        loading="eager"
                       />
                     </Link>
                     <div className="p-6">
