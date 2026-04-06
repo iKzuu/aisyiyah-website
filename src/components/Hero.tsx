@@ -15,7 +15,7 @@ export function Hero() {
         />
 
         <Image 
-          src="https://placehold.co/400x600"
+          src="/images/picture_3.jpeg"
           alt="Hero Background"
           width={800}
           height={1200}
