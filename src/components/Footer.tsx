@@ -15,8 +15,8 @@ const footerLinks = {
   ],
   contact: [
     { label: 'Desa Ngasem, Kec. Colomadu, Kab. Karanganyar', href: 'https://maps.app.goo.gl/Cv2uYGAV3dc6fYj69' },
-    { label: 'aisyiyah.ngasem@gmail.com', href: '#' },
-    { label: '+62 821 000 000', href: '#' },
+    { label: 'aisyiyahngasem@gmail.com', href: '#' },
+    { label: '+62 813-5367-3363', href: 'https://wa.me/6281353673363' },
   ],
 };
 
