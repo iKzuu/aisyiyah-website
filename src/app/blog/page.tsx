@@ -40,7 +40,7 @@ export default async function BlogPage() {
             Kembali Ke Beranda
           </Link>
           <span className="block text-sm font-medium text-primary uppercase tracking-wider">
-            Our Blog
+            Blog Kegiatan Kami
           </span>
           <h1 className="mt-4 font-serif text-4xl sm:text-5xl md:text-6xl font-semibold text-foreground text-balance">
             Kabar Terbaru Aisyiyah
