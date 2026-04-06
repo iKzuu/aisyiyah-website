@@ -176,21 +176,14 @@ export default async function BlogPage() {
       <section className="bg-card border-t border-border py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="font-serif text-2xl sm:text-3xl font-semibold text-foreground">
-            Want to stay updated?
+            Terima kasih telah melihat dan membaca blog kami
           </h2>
-          <p className="mt-4 text-muted-foreground max-w-xl mx-auto">
-            Subscribe to our
-            newsletter for the
-            latest news, stories,
-            and event
-            announcements.
-          </p>
           <Button
             asChild
             className="mt-8"
           >
             <Link href="/#contact">
-              Get in Touch
+              Info lebih lanjut
               <ArrowRight className="w-4 h-4" />
             </Link>
           </Button>
