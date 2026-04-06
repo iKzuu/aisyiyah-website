@@ -175,7 +175,7 @@ export default async function BlogPage() {
       {/* CTA Section */}
       <section className="bg-card border-t border-border py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="font-serif text-2xl sm:text-3xl font-semibold text-foreground">
+          <h2 className="font-serif text-2xl sm:text-3xl font-medium text-foreground">
             Terima kasih telah melihat dan membaca blog kami
           </h2>
           <Button
