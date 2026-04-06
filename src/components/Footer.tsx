@@ -13,9 +13,11 @@ const footerLinks = {
     { label: 'Instagram', href: '#' },
     { label: 'Facebook', href: '#' },
   ],
-  credit: [
-    { label: 'Reactbits', href: 'https://reactbits.dev/components/bounce-cards' }
-  ]
+  contact: [
+    { label: 'Desa Ngasem, Kec. Colomadu, Kab. Karanganyar', href: 'https://maps.app.goo.gl/Cv2uYGAV3dc6fYj69' },
+    { label: 'aisyiyah.ngasem@gmail.com', href: '#' },
+    { label: '+62 821 000 000', href: '#' },
+  ],
 };
 
 export function Footer() {
@@ -64,9 +66,9 @@ export function Footer() {
           </div>
 
           <div>
-            <h3 className="font-semibold text-sm uppercase tracking-wider mb-4">Credit</h3>
+            <h3 className="font-semibold text-sm uppercase tracking-wider mb-4">Hubungi Kami</h3>
             <ul className="space-y-3">
-              {footerLinks.credit.map((link) => (
+              {footerLinks.contact.map((link) => (
                 <li key={link.label}>
                   <Link href={link.href} className="text-sm text-background/70 hover:text-background transition-colors">
                     {link.label}
