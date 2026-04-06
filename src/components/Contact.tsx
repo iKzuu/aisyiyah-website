@@ -24,7 +24,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-medium text-foreground">Alamat</h3>
                   <p className="mt-1 text-muted-foreground">
-                    Ngasem, Colomadu, Karanganyar
+                    Desa Ngasem, Kec. Colomadu, Kab. Karanganyar
                   </p>
                 </div>
               </div>
@@ -36,7 +36,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-medium text-foreground">Email</h3>
                   <p className="mt-1 text-muted-foreground">
-                    aisyiyah.ngasem@gmail.com
+                    aisyiyahngasem@gmail.com
                   </p>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export function Contact() {
                 <div>
                   <h3 className="font-medium text-foreground">Hubungi Kami</h3>
                   <p className="mt-1 text-muted-foreground">
-                    +62 (821) 000 000
+                    +62 813-5367-3363
                   </p>
                 </div>
               </div>
