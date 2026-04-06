@@ -7,7 +7,7 @@ export function Hero() {
 
       <div className="absolute inset-0 -z-10">
         <Image 
-          src="https://placehold.co/600x400"
+          src="/images/picture_3.jpeg"
           alt="Hero Background"
           width={1200}
           height={800}
@@ -28,18 +28,18 @@ export function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
         <div className="max-w-3xl mx-auto text-center">
           {/* Badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full bg-primary/10 text-primary text-sm font-medium">
+          <div className="inline-flex items-center gap-2 px-4 py-1.5 mb-8 rounded-full bg-primary-foreground text-primary text-sm font-medium">
             <span className="w-2 h-2 rounded-full bg-primary animate-pulse" />
             Aisyiyah Ranting Desa Ngasem
           </div>
 
           {/* Heading */}
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-foreground leading-tight tracking-tight text-balance">
+          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold text-primary-foreground leading-tight tracking-tight text-balance">
             Mewujudkan Kehidupan Perempuan yang Berkemajuan
           </h1>
 
           {/* Subheading */}
-          <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-pretty leading-relaxed">
+          <p className="mt-6 text-lg md:text-xl text-muted max-w-2xl mx-auto text-pretty leading-relaxed">
             Berkomitmen memberdayakan masyarakat melalui pendidikan, kesehatan, dan aksi sosial berbasis nilai-nilai Islam berkemajuan untuk menciptakan khairu ummah.
           </p>
 

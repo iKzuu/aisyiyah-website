@@ -2,11 +2,11 @@ import BounceCards from "../animation/BounceCards/BounceCards";
 
 export default function BounceCard() {
     const images = [
-        "https://picsum.photos/400/400?grayscale",
-        "https://picsum.photos/500/500?grayscale",
-        "https://picsum.photos/600/600?grayscale",
-        "https://picsum.photos/700/700?grayscale",
-        "https://picsum.photos/300/300?grayscale"
+        "/images/picture_2.jpeg",
+        "/images/picture_3.jpeg",
+        "/images/picture_4.jpeg",
+        "/images/picture_5.jpeg",
+        "/images/picture_1.jpg"
     ];
 
     const transformStyles = [
